@@ -4,21 +4,19 @@
  * print_diagonal -> printing line
  * @n: integer params
  */
-void print_diagonal(int size)
+void print_diagonal(int n)
 {
-	int x, i;
+	int i, x;
 
-	if (n <= 0)
-		_putchar('\n');
-	else
+	for (i = 0; i < n; i++)
 	{
-		for (x = 0; x < n; x++)
+		for (x = 0; x < i; x++)
 		{
-			for (i = 0; i < x; i++)
-				_putchar(' ');
-			_putchar (92);
-			_putchar('\n');
+			_putchar(' ');
 		}
-		_putchar('\n');
+		_putchar (92);
+		if (i < (n-1))
+			_putchar('\n');
 	}
+	_putchar('\n');
 }
