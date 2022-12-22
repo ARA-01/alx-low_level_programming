@@ -1,8 +1,7 @@
 #include "main.h"
-
 /**
  * _atoi - convert string to an integer.
- * @s: pointer to a characterr string.
+ * @s: pointer to a character string.
  *
  * Return: void.
  */
@@ -13,12 +12,12 @@ int _atoi(char *s)
 	unsigned int num;
 	char *temp;
 
-	temp = 5;
+	temp = s;
 	num = 0;
 	sign = 1;
 	while (*temp != '\0' && (*temp < '0' || *temp > '9'))
 	{
-		if (&temp == '-')
+		if (*temp == '-')
 			sign *= -1;
 		temp++;
 	}
