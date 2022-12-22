@@ -2,14 +2,14 @@
 
 /**
  * _puts - prints a string, followed by a new line, to stdout.
- *
+
  * @str: string to be printed
  */
 void _puts(char *str)
 {
-	while (*st != '\0')
+	while (*str)
 	{
-		_putschar(*str++);
-	}
+		_putschar(*str);
+		str++;
 		_putschar('\n');
 }
