@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _stropy -copiar el contenido de uno a otra variable
+ * _strcpy - copiar el contenido de uno a otra variable
  * @dest: This is destiny
  * @src: This is the copia
  *
  * Return: This return copy
  */
-char *_stropy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	char *start = dest;
 
