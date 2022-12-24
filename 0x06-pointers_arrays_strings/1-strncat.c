@@ -4,7 +4,7 @@
  * _strncat - jois two strings with n bytes
  * @dest: copy to
  * @src: copy from
- * @N: number of char to be copied
+ * @n: number of char to be copied
  * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
@@ -13,7 +13,7 @@ char *_strncat(char *dest, char *src, int n)
 	int j;
 
 	i = 0;
-	while (dest[i] !='\0')
+	while (dest[i] != '\0')
 	{
 		i++;
 	}
