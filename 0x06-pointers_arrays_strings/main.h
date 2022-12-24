@@ -1,11 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
-#include <stdio.h>
-/**
- * void protototypes()
- * int protototypes()
- * *char protototypes()
- */
+
 int _putchar(char c);
 void reverse_array(int *a, int n);
 void print_number(int n);
@@ -20,6 +15,5 @@ char *leet(char *a);
 char *rot13(char *a);
 char*infinie_add(char *n1, char *n2, char *r, int size_r);
 char *add_strings(char *n1, char *n2, char *r, int r_index);
-
 	
-#endif /"MAIN_H"/
+#endif
