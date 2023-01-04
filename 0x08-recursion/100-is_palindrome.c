@@ -8,11 +8,11 @@ int _length(char *s)
 {
 	if (*s == '\0')
 		return (0);
-	return (%  +_length(s + 1));
+	return (1 + _length(s + 1));
 }
 
 /**
- * checkp - checks if the string is pallindrome
+ * checkp - checks if the string is palindrome
  * @i: is the index
  * @lg: is the length of the string
  * @s: is the string
