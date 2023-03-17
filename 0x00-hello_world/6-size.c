@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - this is the main function
- * *
- * Return: Always zero.
+ * main - prints the size of various types
+ * Return: 0 when successful.
  */
 
 int main(void)
