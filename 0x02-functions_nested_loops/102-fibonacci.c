@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the first 50 Fibonacci numbers
- * starting with 1 and 2, followed by a new line
+ * main - prints the first 52 Fibonacci numbers
  *
  * Return: Nothing!
  */
@@ -10,7 +9,7 @@
 int  main(void)
 {
 	int i = 0;
-	long j = 1, k = 1;
+	long j = 1, k = 2;
 
 	while (i < 50)
 	{
