@@ -61,6 +61,7 @@ char *_initialize_array(char *ar, int lar)
  *
  * Return: length of the number.
  */
+
 int _checknum(char *argv[], int n)
 {
 	int ln;
