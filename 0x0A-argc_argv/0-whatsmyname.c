@@ -3,8 +3,8 @@
 
 /**
  * main - function that prints its name, followed by a new line.
- * @agrv: the array of arguments.
- * @agrc: the count of arguments.
+ * @argv: the array of arguments.
+ * @argc: the count of arguments.
  *
  * Return: 0 on Success.
  */
