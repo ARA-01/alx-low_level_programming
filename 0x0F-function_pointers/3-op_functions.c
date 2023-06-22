@@ -19,7 +19,7 @@ int op_add(int a, int b)
 }
 
 /**
- * op_sub: subtract operator, returns the difference of 2 numbers
+ * op_sub - subtract operator, returns the difference of 2 numbers
  * @a: first value
  * @b: second value
  * Return: diff between a and b.
